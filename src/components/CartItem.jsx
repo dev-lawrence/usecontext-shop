@@ -27,6 +27,8 @@ const CartItem = ({ product }) => {
             <h5 className="name">{name}</h5>
           </div>
 
+          <p>{quantity}</p>
+
           <h4 className="price">${calculatePrice(quantity, price)}</h4>
         </div>
       </div>
